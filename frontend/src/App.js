@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div style={{ padding: 40 }}>
-      <h2>Task Manager</h2>
+      <h2>Task Manager App</h2>
       <input onChange={(e) => setText(e.target.value)} />
       <button onClick={addTask}>Add</button>
 
